@@ -686,16 +686,16 @@ SENSOR_DATA = {
     "buildinglink_tracking": {},
     # Post NL
     "post_nl_delivering": {
-        "email": ["noreply@notificatie.postnl.nl"],
-        "subject": ["Je pakket is onderweg", "De chauffer is onderweg"],
+        "email": ["notificatie@edm.postnl.nl"],
+        "subject": ["Vandaag tussen", "Dit is de bezorgtijd van je pakket"],
     },
     "post_nl_exception": {
-        "email": ["noreply@notificatie.postnl.nl"],
+        "email": ["notificatie@edm.postnl.nl"],
         "subject": ["We hebben je gemist"],
     },
     "post_nl_delivered": {
-        "email": ["noreply@notificatie.postnl.nl"],
-        "subject": ["Je pakket is bezorgd"],
+        "email": ["notificatie@edm.postnl.nl"],
+        "subject": ["We hebben je pakket van"],
     },
     "post_nl_packages": {},
     "post_nl_tracking": {"pattern": ["3S?[0-9A-Z]{14}"]},
